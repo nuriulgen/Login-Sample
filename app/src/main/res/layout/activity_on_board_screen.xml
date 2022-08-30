@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OnBoardScreenActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="196dp"
+            android:contentDescription="@string/background_blue"
+            android:src="@drawable/ic_blue_union"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="155dp"
+            android:layout_height="156dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/avatar2"
+            android:src="@drawable/ic_avatar2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="99dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="218dp"
+            android:layout_marginTop="68dp"
+            android:contentDescription="@string/avatar1"
+            android:elevation="4dp"
+            android:src="@drawable/ic_avatar1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="342dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="196dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/let_s_get_started"
+            android:textColor="#000000"
+            android:textSize="75sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="245dp"
+            android:text="@string/grow_together"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/joinNowButton"
+            android:layout_width="260dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/join_now"
+            android:textSize="34sp"
+            app:cornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

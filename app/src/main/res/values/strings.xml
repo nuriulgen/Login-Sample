@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Odev2FMSS</string>
+    <string name="background_blue">background_blue</string>
+    <string name="avatar2">avatar2</string>
+    <string name="avatar1">avatar1</string>
+    <string name="let_s_get_started">Let’s Get Started</string>
+    <string name="grow_together">Grow Together</string>
+    <string name="join_now">Join Now</string>
 </resources>
