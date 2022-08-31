@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/drawable/circular_button.xml" value="0.2235" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/drawable/rectangle_1.xml" value="0.1655" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/drawable/rounded_corner.xml" value="0.1655" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/font/inter_bold.xml" value="0.28020833333333334" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/font/inter_extrabold.xml" value="0.28020833333333334" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/font/inter_medium.xml" value="0.28020833333333334" />
+        <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/layout/activity_login_screen.xml" value="0.264" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/layout/activity_on_board_screen.xml" value="0.15896739130434784" />
         <entry key="..\:/nuri_ulgen_odev2-/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.15896739130434784" />
       </map>
