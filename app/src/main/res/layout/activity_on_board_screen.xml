@@ -89,16 +89,13 @@
 
         <Button
             android:id="@+id/joinNowButton"
+            style="@style/CustomButtonStyle"
             android:layout_width="260dp"
             android:layout_height="62dp"
             android:layout_marginTop="85dp"
             android:layout_marginBottom="40dp"
-            android:backgroundTint="@color/black"
-            android:fontFamily="@font/inder"
             android:text="@string/join_now"
             android:textFontWeight="400"
-            android:textSize="34sp"
-            app:cornerRadius="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

@@ -13,4 +13,31 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:fontFamily">@font/inder</item>
+    </style>
+
+    <style name="CustomBackButtonStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:src">"@drawable/ic_left_arrow"</item>
+        <item name="android:background">"@drawable/circular_button"</item>
+
+    </style>
+
+    <style name="CustomTextFieldStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:autofillHints">""</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:paddingBottom">40dp</item>
+    </style>
+
+
 </resources>

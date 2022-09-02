@@ -6,4 +6,20 @@
     <string name="let_s_get_started">Let’s Get Started</string>
     <string name="grow_together">Grow Together</string>
     <string name="join_now">Join Now</string>
+    <string name="backbutton">BackButton</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="enter_your_username_amp_password"><![CDATA[Enter Your Username & Password]]></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotten_passwoard">Forgotten Passwoard?</string>
+    <string name="or_create_a_new_account">Or Create a New Account</string>
+    <string name="background_image">BackGround Image</string>
+    <string name="backgroundImage">BackgroundImage</string>
+    <string name="backButtonSignUp">BackButton</string>
+    <string name="create_naccount">Create\nAccount :)</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="create_username">Create UserName</string>
+    <string name="create_password">Create Password</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
